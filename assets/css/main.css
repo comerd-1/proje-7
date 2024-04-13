@@ -1,0 +1,98 @@
+bady{
+    color: var(--colorBunting);
+}
+
+.page-left{
+    width: 260px;
+    min-width: 260px;
+}
+
+.page{
+    min-height: calc(100% - 92px);
+    background: linear-gradient(304.24deg, #F8F8FF 0%, #FFFFFF 86.71%);
+}
+
+.nav-link{
+    height: 48px;
+    margin-bottom: 8px;
+    position: relative;
+    
+}
+
+.nav-link.active::after{
+    content: '';
+    width: 6px;
+    position: absolute;
+    top: 0;
+    left: -16px;
+    bottom: 0;
+    background-color: var(--colorFlamingo);
+    border-radius: 24px;
+}
+
+.btn{
+    margin-top: 368px;
+}
+
+.btn-1{
+    width: 114px;
+    height: 40px;
+    border: 1px solid #CBCBD9;
+    padding: 8px 16px 8px 16px;
+}
+
+.tab{
+   margin-top: 16px;
+   text-decoration: underline #EE4D38;
+}
+
+.image .img{
+    width: 87px;
+    height: 58px;
+    border: 1px solid #CBCBD9;
+    border-radius: 6px;
+    background-color: #ffffff;
+    margin-top: 22px;
+    padding: 10px;
+    margin-right: 16px;
+}
+
+.visa .span{
+    width: 340px;
+    height: 24px;
+    margin-top: 20px;
+}
+
+.btn-2{
+    width: 98px;
+    height: 40px;
+    border: 1px solid #CBCBD9;
+    border-radius: 8px;
+    padding: 8px 16px 8px 16px;
+    margin-top: 20px;
+}
+
+
+.cont{
+    width: 258px;
+    height: 221px;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 0px 8px 19px 0px #DFDFFD99;
+    background-color: #EE4D38;
+    margin-top: 162px;
+    margin-right: 56px;
+}
+
+.buton .bt{
+    width: 194px;
+    height: 40px;
+   border: 1px solid #FFFFFF80;
+   border-radius: 8px;
+   padding: 8px 16px 8px 16px;
+}
+
+.table-link tr:hover{
+    border-radius: 8px solid #FFFFFF;
+    box-shadow: 0px 8px 19px 0px #DFDFFD99;
+}

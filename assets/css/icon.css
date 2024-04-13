@@ -1,0 +1,31 @@
+.icon{
+    width: 32px;
+    height: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.icon-general{
+    background-image: url(../icons/general.svg);
+}
+
+.icon-password{
+    background-image: url(../icons/password.svg);
+}
+
+.icon-letter{
+    background-image: url(../icons/letter.svg);
+}
+
+.icon-billing{
+    background-image: url(../icons/billing.svg);
+}
+
+.icon-apps{
+    background-image: url(../icons/apps.svg);
+}
+
